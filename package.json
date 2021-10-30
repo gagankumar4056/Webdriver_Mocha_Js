@@ -1,0 +1,25 @@
+{
+  "name": "webdriver_mocha_js",
+  "version": "1.0.0",
+  "description": "webdriver IO Javascript Mocha framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx wdio run wdio.conf.js"
+  },
+  "author": "Gagan Sambaru",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/cli": "^7.16.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/register": "^7.15.3",
+    "@wdio/allure-reporter": "^7.16.0",
+    "@wdio/local-runner": "^7.16.0",
+    "@wdio/mocha-framework": "^7.16.0",
+    "@wdio/spec-reporter": "^7.16.0",
+    "chromedriver": "^94.0.0",
+    "wdio-chromedriver-service": "^7.2.2"
+  }
+}
