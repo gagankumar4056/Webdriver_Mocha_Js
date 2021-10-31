@@ -9,7 +9,8 @@
   "author": "Gagan Sambaru",
   "license": "ISC",
   "dependencies": {
-    "@wdio/cli": "^7.16.0"
+    "@wdio/cli": "^7.16.0",
+    "allure-commandline": "^2.13.8"
   },
   "devDependencies": {
     "@babel/core": "^7.15.8",
